@@ -1,12 +1,13 @@
+from utils import PI
 #circunferencia
 def areaC(radioC):
-    pi = 3.141592
-    areaCE = pi * (radioC * radioC)
+    #pi = 3.141592
+    areaCE = PI * (radioC * radioC)
     return areaCE
 
 def perimetroC(radioC):
-    pi = 3.141592
-    perimetroCE = 2 * pi *radioC
+    #pi = 3.141592
+    perimetroCE = 2 * PI *radioC
     return perimetroCE
 
 #triángulo equilatero
