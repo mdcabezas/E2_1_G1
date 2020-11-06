@@ -22,7 +22,6 @@ baseR = int(input())
 print("ingrese centímetros de altura del rectángulo: ")
 alturaR = int(input())
 print ("El área del rectángulo es: ", areaR(baseR, alturaR), "cms^2")
-print ("El perímetro del rectángulo es: ", perimetroR(baseR, alturaR), "cms")
 
 
 print("Calcularemos distancia recorrida con valores velocidad en km y tiempo en horas")
@@ -31,3 +30,7 @@ tiempo = int(input())
 print("ingrese distancia en kilometros: ")
 velocidad = int(input())
 print ("La distancia recorrida es de: ", distanciaR(tiempo, velocidad), "km/h")
+
+#probando el if main
+from nuevos_calculos import imprimemelo
+imprimemelo()
