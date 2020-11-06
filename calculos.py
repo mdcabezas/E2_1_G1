@@ -1,4 +1,4 @@
-from nuevos_calculos import areaC, perimetroC, areaT, perimetroT, areaR, perimetroR, distanciaR
+import paquete_cientifico
 
 print("Calcularemos área y perímetro de una circunferencia")
 print("Ingrese centímetros de radio de la circunferencia: ")
